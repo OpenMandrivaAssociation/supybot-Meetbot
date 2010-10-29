@@ -1,6 +1,6 @@
 Name:           supybot-Meetbot
 Version:        0.1.4
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Plugin for Supybot for handling IRC meetings
 
 Group:          Networking/IRC

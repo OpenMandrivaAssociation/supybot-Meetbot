@@ -39,3 +39,48 @@ rm -rf $RPM_BUILD_ROOT
 %doc README.txt doc/Manual.txt doc/meetingLocalConfig-example.py
 %{python_sitelib}/supybot/plugins/MeetBot
 
+
+
+%changelog
+* Fri Oct 29 2010 Michael Scherer <misc@mandriva.org> 0.1.4-2mdv2011.0
++ Revision: 590101
+- rebuild for python 2.7
+
+* Tue Aug 03 2010 Michael Scherer <misc@mandriva.org> 0.1.4-1mdv2011.0
++ Revision: 565509
+- import supybot-Meetbot
+
+
+* Tue Aug 03 2010 Michael Scherer <misc@mandriva.org> 0.1.4-1mdv
+- adaptation from Fedora
+
+* Thu Jul 22 2010 David Malcolm <dmalcolm@redhat.com> - 0.1.4-4
+- Rebuilt for https://fedoraproject.org/wiki/Features/Python_2.7/MassRebuild
+
+* Fri Sep 11 2009 Kevin Fenzi <kevin@tummy.com> - 0.1.4-3
+- Add default css files. 
+
+* Fri Sep 11 2009 Kevin Fenzi <kevin@tummy.com> - 0.1.4-2
+- Fix url
+
+* Fri Sep 11 2009 Kevin Fenzi <kevin@tummy.com> - 0.1.4-1
+- Update to 0.1.4 release. 
+
+* Sun Aug 23 2009 Kevin Fenzi <kevin@tummy.com> - 0.1.3-1
+- Update to 0.1.3 release. 
+
+* Sun Jul 26 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.1.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
+* Wed Jul 15 2009 Kevin Fenzi <kevin@tummy.com> - 0.1.2-1
+- Update to 0.1.2 release. 
+
+* Tue Jul 07 2009 Kevin Fenzi <kevin@tummy.com> - 0.1.1-2
+- Fix install location to be the correct name. 
+- Add additional doc files
+
+* Mon Jul 06 2009 Kevin Fenzi <kevin@tummy.com> - 0.1.1-1
+- Upgrade to 0.1.1 version
+
+* Sun Jun 14 2009 Kevin Fenzi <kevin@tummy.com> - 0-0.1.20090614darcs
+- Initial version for fedora review

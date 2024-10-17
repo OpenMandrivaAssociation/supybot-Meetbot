@@ -5,7 +5,7 @@ Summary:        Plugin for Supybot for handling IRC meetings
 
 Group:          Networking/IRC
 License:        BSD
-URL:            http://wiki.debian.org/MeetBot
+URL:            https://wiki.debian.org/MeetBot
 Source0:        http://code.zgib.net/tar//MeetBot-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
